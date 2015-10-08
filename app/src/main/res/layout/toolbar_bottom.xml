@@ -5,5 +5,9 @@
     android:minHeight="?attr/actionBarSize"
     android:background="?attr/colorPrimary">
 
-
+    <ImageView
+        android:id="@+id/imgV01"
+        android:src="@drawable/ic_launcher"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
 </android.support.v7.widget.Toolbar>
