@@ -1,5 +1,6 @@
 package com.example.luizpereira.projectalpha;
 
+import android.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,6 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    /*
+     *      Function msg
+     */
+    public void Msg(String msg){
+        AlertDialog.Builder alertMsg = new AlertDialog.Builder(this);
+        alertMsg.setTitle("Aviso");
+        alertMsg.setMessage(msg);
+        alertMsg.setNeutralButton("OK", null);
+        alertMsg.show();
     }
 
     @Override
