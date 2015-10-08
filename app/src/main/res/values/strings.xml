@@ -2,5 +2,6 @@
     <string name="app_name">ProjectAlpha</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="nome">Luiz Fernando Lopes</string>
     <string name="action_settings">Settings</string>
 </resources>
